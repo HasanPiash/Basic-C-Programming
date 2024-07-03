@@ -1,1 +1,1 @@
-n
+float f;
