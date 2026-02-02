@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h> 
 int main()
 {
     // char a[6]={'R','a','h','a','t'}; // no gurantee
