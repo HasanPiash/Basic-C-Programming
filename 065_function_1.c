@@ -5,6 +5,7 @@ int sum(int x,int y) // x=20 y=25
     int sum=x+y;
     return sum;
 }
+
 int main()
 {
     int x,y;
