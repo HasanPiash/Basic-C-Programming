@@ -7,6 +7,7 @@ void sum(void)
     int s=a+b;
     printf("%d\n",s);
 }
+
 int main()
 {
     sum();
