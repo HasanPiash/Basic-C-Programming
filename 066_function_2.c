@@ -6,6 +6,7 @@ int sum()
     int s=a+b;
     return s;
 }
+
 int main()
 {
     int s=sum(100);
