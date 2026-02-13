@@ -7,6 +7,5 @@ int main()
     printf("%d\n",*(1+ar));
     printf("%d\n",ar[1]);
     printf("%d\n",1[ar]);
-
     return 0;
 }
