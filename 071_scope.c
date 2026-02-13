@@ -4,6 +4,7 @@ void fun(void)
 {
     // printf("fun er x er address - %p\n",&x);
 }
+
 int main()
 {
     // printf("Main er x er address - %p\n",&x);
