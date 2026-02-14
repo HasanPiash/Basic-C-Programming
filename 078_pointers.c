@@ -5,6 +5,7 @@ int main()
     int * ptr = &x;
     // x=200;
     *ptr=200;
+    
     printf("x er value - %d\n",x);
     printf("x er value - %d\n",*ptr);
     return 0;
