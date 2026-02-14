@@ -5,6 +5,7 @@ int fun(char a[],int i)
     int l=fun(a,i+1);
     return l+1;
 }
+
 int main()
 {
     char a[20]="rahat";
