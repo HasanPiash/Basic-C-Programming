@@ -5,6 +5,7 @@ int main()
     double * ptr = &x;
     double * ptr2 = ptr;
     // *ptr=10.20;
+    
     *ptr2=100.50;
 
     printf("x er value - %0.2lf\n",x);
