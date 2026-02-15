@@ -3,6 +3,7 @@ void fun(char * ar)
 {
     ar[0]='G';
 }
+
 int main()
 {
     char ar[]="Hello";
