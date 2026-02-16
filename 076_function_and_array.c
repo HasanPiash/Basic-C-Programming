@@ -6,6 +6,7 @@ void fun(double ar[],int n)
         printf("%0.2lf ",ar[i]);
     }
 }
+
 int main()
 {
     double ar[5]={10.5,20.2,30.1,40.6,50.0};
