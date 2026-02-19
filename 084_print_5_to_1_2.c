@@ -5,6 +5,7 @@ void fun(int i)
     fun(i+1);
     printf("%d\n",i);
 }
+
 int main()
 {
     fun(1);
