@@ -5,6 +5,7 @@ void fun(int a[],int n,int i)
     printf("%d\n",a[i]);
     fun(a,n,i+1);
 }
+
 int main()
 {
     int n;
