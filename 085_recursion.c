@@ -4,6 +4,7 @@ void fun()
     printf("Fun\n");
     fun();
 }
+
 int main()
 {
     fun();
