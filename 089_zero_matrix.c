@@ -12,6 +12,7 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
+    
     int cnt=0;
     for(int i=0;i<row;i++)
     {
