@@ -11,6 +11,7 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
+    
     int flag=1;
     if(row != col) 
     {
