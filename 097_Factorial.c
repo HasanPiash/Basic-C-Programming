@@ -9,6 +9,7 @@ long long int fact(long long int n)
     long long int ans=fact(n-1);
     return ans*n;
 }
+
 int main()
 {
     long long int n;
