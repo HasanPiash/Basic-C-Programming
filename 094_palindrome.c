@@ -14,6 +14,7 @@ int main()
         i++;
         j--;
     }
+    
     if(strcmp(a,b)==0)
     {
         printf("YES");
