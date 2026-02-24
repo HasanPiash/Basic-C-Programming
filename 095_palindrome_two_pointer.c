@@ -15,6 +15,7 @@ int main()
         i++;
         j--;
     }
+    
     if(flag==0)
     {
         printf("NO");
