@@ -16,6 +16,7 @@ int fun(int a[],int n,int i)
         return mx;
     }
 }
+
 int main()
 {
     int n;
