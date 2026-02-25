@@ -7,6 +7,7 @@ int fun(char s[],int i)
     {
         return 0;
     }
+    
     int ans=fun(s,i+1);
     if(s[i]>='A' && s[i]<='Z')
     {
