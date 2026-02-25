@@ -7,6 +7,7 @@ void fun(int n)
     fun(n/10);
     printf("%d ",x);
 }
+
 int main()
 {
     int test;
