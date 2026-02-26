@@ -14,6 +14,7 @@ int main() {
     }
     
     // Output the counts for alphabets that appeared at least once
+    
     for (int i = 0; i < 26; i++) {
         if (counts[i] > 0) {
             printf("%c - %d\n", i + 'a', counts[i]);
@@ -22,3 +23,4 @@ int main() {
     
     return 0;
 }
+
