@@ -11,6 +11,7 @@ int main() {
         scanf("%s", S); // Input the string
         
         int uppercase = 0, lowercase = 0, digits = 0;
+        
         int length = strlen(S); // Get the length of the string
         
         // Count the number of uppercase letters, lowercase letters, and digits
@@ -30,3 +31,4 @@ int main() {
     
     return 0;
 }
+
