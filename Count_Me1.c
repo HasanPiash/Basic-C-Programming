@@ -17,6 +17,7 @@ int main() {
         if (A[i] % 2 == 0) {
             div_by_2++;
         }
+        
         if (A[i] % 3 == 0 && A[i] % 2 != 0) {
             div_by_3++;
         }
@@ -27,3 +28,4 @@ int main() {
     
     return 0;
 }
+
