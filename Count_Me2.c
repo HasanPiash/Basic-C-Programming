@@ -14,6 +14,7 @@ int main() {
     int len = strlen(S);
   
     // Count consonants in the string
+    
     for (int i = 0; i < len; i++) {
         if (!is_vowel(S[i])) {
             consonants++;
