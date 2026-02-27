@@ -8,8 +8,10 @@ int main() {
         for (int j = 1; j <= K; j++) { // Inner loop to print from 1 to K
             printf("%d ", j);
         }
+        
         printf("\n"); // New line after printing from 1 to K
     }
     
     return 0;
 }
+
