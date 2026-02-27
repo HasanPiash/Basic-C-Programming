@@ -3,6 +3,7 @@ int main() {
     int N,positive=0,negative=0;
     scanf("%d",&N);
     int a[N]; 
+    
     for (int i = 0; i<N; i++)
     {
         scanf("%d", &a[i]);
@@ -19,6 +20,5 @@ int main() {
     
     printf("%d %d\n",positive,negative);
     return 0;
-
 
 }
