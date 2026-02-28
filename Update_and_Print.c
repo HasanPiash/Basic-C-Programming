@@ -13,9 +13,11 @@ int main() {
     A[X] = V;
 
     // Printing the array in reverse order
+    
     for (int i = N - 1; i >= 0; i--) {
         printf("%d ", A[i]);
     }
     
     return 0;
 }
+
