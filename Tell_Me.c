@@ -27,6 +27,7 @@ int main() {
         }
         
         // Output the result
+        
         if (found) {
             printf("YES\n");
         } else {
@@ -36,3 +37,4 @@ int main() {
     
     return 0;
 }
+
