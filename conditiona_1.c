@@ -7,9 +7,11 @@ int main()
     {
         printf("Burger Khabo");
     }
+        
     else
     {
         printf("Sharadin kichu khabo na");
     }
     return 0;
+
 }
