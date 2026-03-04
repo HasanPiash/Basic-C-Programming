@@ -9,6 +9,7 @@ int count_before_one(int A[],int n){
     }
     return count;
 }
+
 int main() {
     int n;
     scanf("%d",&n);
@@ -19,4 +20,5 @@ int main() {
     int result=count_before_one(A,n);
     printf("%d\n",result); 
     return 0;
+
 }
