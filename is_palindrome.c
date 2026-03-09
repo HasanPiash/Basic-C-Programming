@@ -13,6 +13,7 @@ int is_palindrome(char s[]){
     } 
     return flag;
 }
+
 int main(){
     char s[1001];
     scanf("%s",s);
@@ -26,4 +27,5 @@ int main(){
         printf("Not Palindrome\n");
     }
     return 0;
+
 }
