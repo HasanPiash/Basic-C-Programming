@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int N, M;
     scanf("%d %d", &N, &M);
@@ -37,3 +36,4 @@ int main() {
 
     return 0;
 }
+
