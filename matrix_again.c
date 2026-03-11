@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main() {
     int N, M;
     scanf("%d %d", &N, &M);
-
     int matrix[N][M];
 
     // Input the matrix
@@ -23,6 +21,5 @@ int main() {
     for (int i = 0; i < N; i++) {
         printf("%d ", matrix[i][M - 1]);
     }
-
     return 0;
 }
