@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main() {
     int n;
     scanf("%d", &n);
-
     int m = 6 + (n / 2);
 
     // Printing upper part of the tree
@@ -15,7 +13,6 @@ int main() {
         for (int j = 1; j <= k; j++) {
             printf("*");
         }
-        
         printf("\n");
     }
 
@@ -31,6 +28,5 @@ int main() {
         
         printf("\n");
     }
-
     return 0;
 }
