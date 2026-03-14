@@ -8,6 +8,7 @@ int main()
     // printf("%0.4f", chol);
 
     char ami = 'K';
+    
     printf("%c", ami);
     return 0;
 }
