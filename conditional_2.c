@@ -3,7 +3,6 @@ int main()
 {
     int tk;
     scanf("%d", &tk);
-    
     if (tk >= 100)
     {
         printf("Burger khabo");
@@ -18,9 +17,8 @@ int main()
     }
     else
     {
-        printf("Khabo na");
+        printf("Khabo na"); 
     }
-
-    return 0;
+    return 0; 
 
 }
