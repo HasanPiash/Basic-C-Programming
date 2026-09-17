@@ -5,20 +5,18 @@ int count_before_one(int A[],int n){
         if (A[i]==1){
             break;
         }
-        count++;
+        count++; 
     }
     return count;
 }
-
 int main() {
     int n;
     scanf("%d",&n);
     int A[n];
     for (int i=0;i<n;i++){
-        scanf("%d",&A[i]);
+        scanf("%d",&A[i]); 
     }
     int result=count_before_one(A,n);
     printf("%d\n",result); 
     return 0;
-
 }
