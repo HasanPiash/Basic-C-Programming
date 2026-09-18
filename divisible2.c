@@ -1,6 +1,5 @@
 #include<stdio,h>
-int main()
+int main() 
 {  
-    return o;
-
+    return o; 
 }
