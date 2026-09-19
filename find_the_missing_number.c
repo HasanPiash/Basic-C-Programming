@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main() {
     int T;
     scanf("%d", &T); // Number of test cases
-
     for (int t = 0; t < T; t++) {
         int n = 4;
         long long int a[n-1];
@@ -19,7 +17,6 @@ int main() {
         else
             printf("-1\n");
     }
-
     return 0;
 }
 
