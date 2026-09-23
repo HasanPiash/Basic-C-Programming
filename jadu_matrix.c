@@ -9,10 +9,12 @@ int main() {
             scanf("%d", &a[i][j]);
         }
     }
+    
     int flag = 1; 
     if (N != M) {
         flag = 0;
     }
+    
     // Check primary and secondary diagonals, as well as other elements
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < M; j++) {
