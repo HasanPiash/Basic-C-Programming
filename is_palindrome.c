@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-
 int is_palindrome(char s[]){
     int i=0, j=strlen(s)-1;
-    int flag=1;
-    
+    int flag=1; 
     while (i<j){
         if (s[i]!=s[j]){
             flag = 0;
@@ -31,6 +29,5 @@ int main(){
         printf("Not Palindrome\n");
     }
     return 0;
-
 }
 
