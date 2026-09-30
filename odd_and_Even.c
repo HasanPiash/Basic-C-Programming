@@ -9,7 +9,7 @@ void odd_even(){
         scanf("%d",&num);
         if(num%2==0)
         {
-            even++;
+            even++; 
         }
         else
         {
@@ -18,6 +18,7 @@ void odd_even(){
     }
     printf("%d %d\n",even,odd);
 }
+
 int main(){
     odd_even();
     return 0; 
