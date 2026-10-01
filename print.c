@@ -5,11 +5,8 @@ int main()
     printf("100%%%%");
     return 0;
 }
-
-
 // Hello
-// Hi I am a programmer
-
+// Hi I am a programmer...
 // Special characters (ESCAPE)
-// \n - new line
+// \n - new line...
 // \t - tab
