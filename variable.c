@@ -5,7 +5,8 @@ int main()
     // printf("%d %d", karim, rahim); 
     // float chol = 2.557;
     // printf("%0.4f", chol);
-    char ami = 'K'; 
-    printf("%c", ami);
+    
+    char ami = 'K';
+    printf("%c", ami); 
     return 0;
 }
