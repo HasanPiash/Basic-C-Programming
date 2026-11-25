@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main() {
+int main() 
+{
     int N,positive=0,negative=0;
     scanf("%d",&N);
     int a[N];
@@ -7,11 +8,13 @@ int main() {
     {
         scanf("%d", &a[i]);
     }
+    
     for (int i = 0; i<N; i++) {
         if(a[i]>0)
         {
             positive += a[i]; 
-        }else{
+        }
+        else{
             negative += a[i];
         }
     }
