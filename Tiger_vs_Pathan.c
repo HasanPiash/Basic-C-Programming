@@ -8,19 +8,23 @@ int main() {
         char S[N+1];
         scanf("%s", S); // String representing rounds    
         int tiger_wins = 0, pathan_wins = 0; 
+        
         for (int i = 0; i < N; i++) {
             if (S[i] == 'T')
                 tiger_wins++;
             else
                 pathan_wins++;
         }
+        
         if (tiger_wins > pathan_wins)
             printf("Tiger\n");
+             
         else if (tiger_wins < pathan_wins)
-            printf("Pathaan\n");
+            printf("Pathaan\n"); 
+            
         else
-            printf("Draw\n");
+            printf("Draw\n"); 
     }
-    return 0;
+    return 0; 
 }
 
