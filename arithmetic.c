@@ -3,9 +3,10 @@ int main()
 {
     int a = 3, b = 20;
     int mod = a % b;  
-    printf("%d", mod);
-    return 0;
+    printf("%d", mod); 
+    return 0; 
 }
+
 // + - * / %
 // a + b
 // a - b
